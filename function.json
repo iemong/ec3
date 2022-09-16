@@ -1,0 +1,19 @@
+{
+  "Architectures": [
+    "x86_64"
+  ],
+  "Description": "",
+  "EphemeralStorage": {
+    "Size": 512
+  },
+  "FunctionName": "ec2-controller",
+  "Handler": "src/index.handler",
+  "MemorySize": 128,
+  "Role": "arn:aws:iam::634574167788:role/start_stop_instance_lambda",
+  "Runtime": "nodejs14.x",
+  "Tags": {},
+  "Timeout": 3,
+  "TracingConfig": {
+    "Mode": "PassThrough"
+  }
+}

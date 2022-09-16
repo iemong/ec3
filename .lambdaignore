@@ -1,0 +1,8 @@
+.lambdaignore
+function.json
+function.jsonnet
+function.zip
+.git/*
+.terraform/*
+terraform.tfstate
+deno.jsonc
